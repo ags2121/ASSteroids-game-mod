@@ -18,3 +18,10 @@ I implemented:
 	*Every time the application is fired up, high score is reset to 0. Your high score is only maintained for a single game-playing session.
 
 Game instructions are explained on the welcome screen. 
+
+*Something I'm having trouble with: I have a global private variable in the Game class, thrustGain, which is initialized to
+be the gain control for the Thrust audio clip (initialized in line 67). I wanted control over the gain because I wanted
+to create a smooth fade out whenever the user ceases to engage the ship's thrusters. So, in line 419, I have a method that
+gradually fades down thrustGain whenever the up arrow is released. It doesn't seem to work as I can still hear the annoying 
+clipping that happens when the sample stops abruptly. Any help would be really appreciated!
+
