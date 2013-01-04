@@ -71,6 +71,7 @@ public class Game implements Runnable, KeyListener {
 			System.out.println(cType.toString());
 		}
 		
+		//initialize the thrustGain control variable to be the "Thrust" audio clip's gain control
 		setThrustGain((FloatControl) clpThrust.getControls()[0]);
 		
 //		clpMusicBackground = Sound.clipForLoopFactory("music-background.wav");
