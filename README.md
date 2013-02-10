@@ -9,13 +9,12 @@ I implemented:
 <ul>
 <li>Score
 <li>5 levels, where each level's difficulty is determined by an increasing amount of asteroids. A game is won if all 5 levels are cleared. 
-<li>Sound effects
-  *Distinct sounds for: losing a ship; gaining a ship; winning; losing; exploding asteroids; engaging ship thrusters
+<li>Sound effects (*Distinct sounds for: losing a ship; gaining a ship; winning; losing; exploding asteroids; engaging ship thrusters)
 <li>Debris animation
 <li>Collision detection 
 <li>Backwards shooting bullets 
 <li>High score
-	*Every time the application is fired up, high score is reset to 0. Your high score is only maintained for a single game-playing session.
+	(*Every time the application is fired up, high score is reset to 0. Your high score is only maintained for a single game-playing session)
 </ul>
 
 Game instructions are explained on the welcome screen. 
